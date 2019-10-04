@@ -78,7 +78,7 @@ h3 {
 }
 
 nav {
-  float: right;
+  float: left;
   margin-top: 25px;
 }
 
@@ -219,8 +219,8 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   .main-section {
     float: left;
-    width: 100%;
-    max-width: 100;
+    width: 55%;
+    max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
     background: #ffffff;
@@ -229,9 +229,49 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 760px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
 
 }
 
 @media screen and (max-width: 640px) {
-  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 630px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+  #logo {
+    float: left;
+    width: 100%;
+    height: 100%;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #4aaaa5;
+  }
+  nav a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+    float: center;
+  }
 }
