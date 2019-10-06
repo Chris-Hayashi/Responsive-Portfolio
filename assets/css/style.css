@@ -219,7 +219,7 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   .main-section {
     float: left;
-    width: 55%;
+    width: 70%;
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
@@ -242,6 +242,8 @@ input[type=submit] {
 
 @media screen and (max-width: 640px) {
   .main-section {
+    position: relative;
+    Bottom: 100px;
     float: left;
     width: 100%;
     max-width: 630px;
@@ -249,6 +251,16 @@ input[type=submit] {
     margin: 0 0 40px;
     background: #ffffff;
     border: 1px solid #dddddd;
+  }
+  #masthead {
+    position: static;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
   }
   #logo { 
     width: 100%;
